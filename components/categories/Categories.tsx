@@ -9,7 +9,7 @@ const Categories = () => {
     return (
         <div className={classes.wrapper}>
             <div className={classes.category}>
-                <Image src={cat1} alt='Politics'  layout='responsive' loading='eager' />
+                <Image src={cat1} alt='Politics' width={370} height={190} priority={false} loading='eager' />
                 <h2>Politics</h2>
             </div>
             <div className={classes.category}>
@@ -17,7 +17,7 @@ const Categories = () => {
                 <h2>Economic</h2>
             </div>
             <div className={classes.category}>
-                <Image src={cat3} alt='Sport' width={370} height={190} layout='responsive' placeholder='blur' />
+                <Image src={cat3} alt='Sport' width={370} height={190}  placeholder='blur' />
                 <h2>Sport</h2>
             </div>
         </div>
